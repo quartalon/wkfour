@@ -1,0 +1,29 @@
+﻿<div class="container">
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Nickname</th>
+                <th>Year</th>
+                <th>Make</th>
+                <th>Model</th>
+                <th>ID#</th>
+                <th>Full Description</th>
+                <!--<th>Learn More</th>-->
+                <th>Image URL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!--binds specific object fields within the array located within namespace c (ClientSideRouting)-->
+                <td><strong><em>{{controller.car.nick}}</em></strong></td>
+                <td>{{controller.car.year}}</td>
+                <td>{{controller.car.make}}</td>
+                <td>{{controller.car.model}}</td>
+                <td>{{controller.car.id}}</td>-->
+                <td>{{controller.car.fullDescription}}</td>
+                <!--<td><a {{controller.car.learnMore}}></a></td>-->
+                <td><img ng-src={{controller.car.imageUrl}} alt="HTML5 Icon" style="width:220px;height:128px;" /></td>
+            </tr>
+        </tbody>
+    </table>
+</div>d

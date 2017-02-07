@@ -1,0 +1,63 @@
+﻿body {
+    background: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRFoc-uxBNYPRAwvaSdHMUydWWGgbjGNenMUSZGob3V5zocaBcRKQ");
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+}
+
+important {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:crimson;
+    font-style: italic;
+}
+
+h1 {
+    color:darkblue;
+    text-shadow: 3px 1px;
+    text-align: center;
+    font: 900 bold;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+    text-align: center;
+}
+
+h3 {
+    color:black;
+    text-decoration-line: underline;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+}
+
+h5 {
+    color: black;
+}
+
+p1 {
+    text-align: center;
+}
+
+thead {
+    background-color:#fffa88;
+}
+
+tbody {
+    background-color:sandybrown;
+}
+
+.about {
+    font-family: 'Comic Sans MS';
+    font-size: x-large;
+}
+
+.red {
+    color: red;
+}
+
+.form-area {
+    background-color: #FAFAFA;
+    padding: 10px 40px 60px;
+    margin: 10px 0 60px;
+    border: 1px solid GREY;
+}
